@@ -64,5 +64,5 @@ nav li a:hover {
 .specs {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    padding: 5px;
+    padding: 4px;
 }
