@@ -4,7 +4,7 @@ p, h1, h2, h3, a {
     font-family: 'Open Sans', sans-serif;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,12 +12,12 @@ ul {
     background-color: #8FBFE0;
 }
 
-li {
+nav li {
     display: inline;
     float: left;
 }
 
-li a {
+nav li a {
     display: block;
     color: black;
     text-align: center;
@@ -30,6 +30,11 @@ nav {
     background: #8FBFE0;
 }
 
-li a:hover {
+nav li a:hover {
     color: white;
+}
+
+#profile {
+    border-radius: 50%;
+    width: 250px;
 }
