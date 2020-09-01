@@ -45,6 +45,9 @@ nav li a:hover {
     color: white;
 }
 
+#bio {
+    font-size: 40px;
+}
 
 .center {
     display: block;
@@ -56,4 +59,10 @@ nav li a:hover {
 .profile-area {
     background: #7C77B9;
     padding: 10px
+}
+
+.specs {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 5px;
 }
