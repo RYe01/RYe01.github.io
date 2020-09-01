@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 
-p, h1, h2, h3 {
+p, h1, h2, h3, a {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,8 +8,28 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #8FBFE0;
 }
 
 li {
     display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    
+}
+
+nav {
+    background: #8FBFE0;
+}
+
+li a:hover {
+    color: white;
 }
