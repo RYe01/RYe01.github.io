@@ -37,4 +37,23 @@ nav li a:hover {
 #profile {
     border-radius: 50%;
     width: 250px;
+    align-self: center;
+}
+
+#bio, #myname {
+    text-align: center;
+    color: white;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.profile-area {
+    background: #7C77B9;
+    padding: 10px
 }
