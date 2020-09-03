@@ -66,3 +66,19 @@ nav li a:hover {
     grid-template-columns: 1fr 4fr;
     padding: 4px;
 }
+
+.box2 {
+    text-align: justify;
+    width: auto;
+    margin: 0px 100px;
+}
+
+::-webkit-details-marker {
+    float: right;
+}
+
+.profile-title {
+    background-color: #7C77B9;
+    border-radius: 7px 7px 0px 0px;
+    color: white;
+}
