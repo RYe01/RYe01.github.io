@@ -33,8 +33,6 @@ nav li a:hover {
     color: white;
 }
 
-
-
 #profile {
     border-radius: 50%;
     width: 250px;
@@ -77,10 +75,23 @@ nav li a:hover {
 
 ::-webkit-details-marker {
     float: right;
+    margin-top: 8px;
 }
 
 .profile-title {
     background-color: #7C77B9;
     border-radius: 7px 7px 0px 0px;
     color: white;
+}
+
+@media only screen and (max-width: 530px) {
+    ::-webkit-details-marker {display: none;}
+    
+    .specs {
+        display: block;
+    }
+
+    .box2 {
+        margin: 0px;
+    }
 }
