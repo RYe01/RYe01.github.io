@@ -9,7 +9,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #8FBFE0;
+    background-color: #7a7157;
 }
 
 nav li {
@@ -26,7 +26,7 @@ nav li a {
 }
 
 nav {
-    background: #8FBFE0;
+    background: #7a7157;
 }
 
 nav li a:hover {
@@ -57,7 +57,7 @@ nav li a:hover {
   }
 
 .profile-area {
-    background: #7C77B9;
+    background: #595b3c;
     padding: 10px
 }
 
@@ -79,7 +79,7 @@ nav li a:hover {
 }
 
 .profile-title {
-    background-color: #7C77B9;
+    background-color: #595b3c;
     border-radius: 7px 7px 0px 0px;
     color: white;
 }
@@ -88,7 +88,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     bottom: 0;
-    background: #8FBFE0;
+    background: #595b3c;
 }
 
 .rights, .creator, .date {
