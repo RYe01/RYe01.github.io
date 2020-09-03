@@ -40,7 +40,7 @@ nav li a:hover {
     box-shadow: 2px 2px 2px 2px white;
 }
 
-#bio, #myname {
+#bio, #myname, .faq {
     text-align: center;
     color: white;
 }
@@ -118,6 +118,12 @@ summary {
 
 .gif {
     width: 600px;
+}
+
+.qa {
+    width: auto;
+    text-align: center;
+    padding: 0;
 }
 
 @media only screen and (max-width: 530px) {
