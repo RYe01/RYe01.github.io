@@ -23,7 +23,6 @@ nav li a {
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
-    
 }
 
 nav {
@@ -33,6 +32,8 @@ nav {
 nav li a:hover {
     color: white;
 }
+
+
 
 #profile {
     border-radius: 50%;
