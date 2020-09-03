@@ -112,6 +112,10 @@ summary {
     cursor: pointer;
 }
 
+.gif {
+    width: 600px;
+}
+
 @media only screen and (max-width: 530px) {
     ::-webkit-details-marker {display: none;}
     
@@ -126,6 +130,6 @@ summary {
 
 @media only screen and (max-width: 906px) {
     .gif {
-        width: 400px
+        width: 300px
     }
 }
