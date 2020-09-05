@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
 
+/* FONT */
+
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    background: #7a7157;
 }
 
 nav ul {
@@ -28,12 +37,27 @@ nav li a {
     text-decoration: none;
 }
 
-nav {
-    background: #7a7157;
-}
-
 nav li a:hover {
     color: white;
+}
+
+
+/* HEAD AREA */
+
+.profile-title {
+    background-color: #595b3c;
+    border-radius: 7px 7px 0px 0px;
+    color: white;
+}
+
+.profile-title h2 {
+    padding: 5px;
+}
+
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
 
 #profile {
@@ -52,14 +76,14 @@ nav li a:hover {
     font-size: 40px;
 }
 
-.center {
+.center /* moving my profile pic to center */{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
   }
 
-.profile-area {
+.profile-area /* the background of every head area */{
     background-image: url("/img/bg.jpg");
     padding: 10px;
 }
@@ -83,16 +107,6 @@ nav li a:hover {
     float: right;
     margin-top: 8px;
     color: #595b3c;
-}
-
-.profile-title {
-    background-color: #595b3c;
-    border-radius: 7px 7px 0px 0px;
-    color: white;
-}
-
-.profile-title h2 {
-    padding: 5px;
 }
 
 footer {
@@ -144,9 +158,23 @@ details, .box1 p, .prog {
     margin: 0 auto;
 }
 
+
+/* RESPONSIVE ELEMENTS (MEDIA QUERY) */
+
 @media only screen and (max-width: 1316px) {
     .specs, .faq-div {
         width: auto;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 906px) {
+    .gif {
+        width: 300px
     }
 }
 
@@ -159,11 +187,5 @@ details, .box1 p, .prog {
 
     .box2 {
         margin: 0px;
-    }
-}
-
-@media only screen and (max-width: 906px) {
-    .gif {
-        width: 300px
     }
 }
