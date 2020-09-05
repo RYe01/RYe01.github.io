@@ -70,11 +70,12 @@ nav li a:hover {
     text-align: justify;
     width: auto;
     margin: 0px 100px;
+    padding: 0;
 }
 
 ::-webkit-details-marker {
     float: right;
-    margin-top: 8px;
+    margin-top: 28px;
     color: #595b3c;
 }
 
@@ -114,6 +115,9 @@ footer {
 
 summary {
     cursor: pointer;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
 }
 
 .gif {
