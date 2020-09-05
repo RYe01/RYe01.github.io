@@ -9,12 +9,15 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width: 100%;
+    display: table;
+    text-align: center;
     background-color: #7a7157;
 }
 
 nav li {
-    display: inline;
-    float: left;
+    display: inline-block;
+    float: none;
 }
 
 nav li a {
@@ -65,12 +68,14 @@ nav li a:hover {
     display: grid;
     grid-template-columns: 1fr 4fr;
     padding: 4px;
+    width: 1280px;
+    margin: auto;
 }
 
 .box2 {
     text-align: justify;
-    width: 1280px auto;
-    margin: 0px 100px;
+    width: auto;
+    margin: 0px 0px 0px 100px;
     padding: 0;
 }
 
@@ -132,6 +137,17 @@ summary {
 details, .box1 p, .prog {
     box-shadow: 1px 2px 4px rgba(0,0,0,.3);
     padding: 10px;
+}
+
+.faq-div {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1316px) {
+    .specs, .faq-div {
+        width: auto;
+    }
 }
 
 @media only screen and (max-width: 530px) {
