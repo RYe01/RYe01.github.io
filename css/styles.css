@@ -111,6 +111,11 @@ video {
     padding: 0;
 }
 
+.box2 a{
+    text-decoration: none;
+    color: #ff6600;
+}
+
 ::-webkit-details-marker {
     float: right;
     margin-top: 8px;
@@ -203,6 +208,11 @@ article p:first-child:first-letter {
     padding-top: 4px;
     padding-right: 8px;
     padding-left: 3px;
+}
+
+article a {
+    text-decoration: none;
+    color: #ff6600;
 }
 
 /* RESPONSIVE ELEMENTS (MEDIA QUERY) */
