@@ -111,7 +111,7 @@ video {
     padding: 0;
 }
 
-.box2 a{
+.box2 a, details a {
     text-decoration: none;
     color: #ff6600;
 }
@@ -123,10 +123,15 @@ video {
 }
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: table;
+    text-align: center;
     bottom: 0;
     background: #595b3c;
+    width: 100%;
+}
+
+footer div {
+    display: inline-block;
 }
 
 .rights, .creator, .date {
@@ -178,6 +183,7 @@ details, .box1 p, .prog, article {
 
 .sidebar p {
     margin-top: 5px;
+    font-size: 14px;
 }
 
 .landing-page-box2 {
