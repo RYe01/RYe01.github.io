@@ -23,12 +23,6 @@
         </div>
         <div class="dash-div">
             <div class="profile-title dash"><h2>Study Monitor</h2></div>
-            <div class="instructions">
-                <p><span style="color: red;">Red</span> - Failed</p>
-                <p><span style="color: blue;">Blue</span> - In Progress</p>
-                <p><span style="color: green;">Green</span> - Done</p>
-            </div>
-            <p class="NBSA">The NBSA boundary dinamically changes, its current position is represented by the red line on the 'Course' column.</p>
             <div class="table">
                 <table>
                     <!--HEADER-->
@@ -43,20 +37,20 @@
                     <!--First quartile-->
                     <tr>
                         <td rowspan="3">1</td>
-                        <td style="color: blue;">Programme and Career Orientation</td>
-                        <td>2,5</td>
+                        <td style="background-color: #85C1E9;">Programme and Career Orientation</td>
+                        <td style="color: orange">2,5</td>
                         <td>Assessment</td>
                         <td>N/A</td>
                     </tr>
                     <tr>
                         <td>Computer Science Basics</td>
-                        <td>7,5</td>
+                        <td style="color: orange;">7,5</td>
                         <td>Written</td>
                         <td>N/A</td>
                     </tr>
                     <tr>
                         <td>Programming Basics</td>
-                        <td>5</td>
+                        <td style="color: orange;">5</td>
                         <td>Case study</td>
                         <td>N/A</td>
                     </tr>
@@ -65,7 +59,7 @@
                     <tr>
                         <td rowspan="3">2</td>
                         <td rowspan="2">Object Oriented Programming</td>
-                        <td rowspan="2">10</td>
+                        <td rowspan="2" style="color: orange;">10</td>
                         <td>Case study</td>
                         <td>N/A</td>
                     </tr>
@@ -75,7 +69,7 @@
                     </tr>
                     <tr>
                         <td>Professional Skills 1</td>
-                        <td>2,5</td>
+                        <td style="color: orange;">2,5</td>
                         <td>Portfolio</td>
                         <td>N/A</td>
                     </tr>
@@ -84,7 +78,7 @@
                     <tr>
                         <td rowspan="7">3</td>
                         <td rowspan="2">Framework Project 1</td>
-                        <td rowspan="2">5</td>
+                        <td rowspan="2" style="color: orange;">5</td>
                         <td>Portfolio #1</td>
                         <td>N/A</td>
                     </tr>
@@ -94,19 +88,19 @@
                     </tr>
                     <tr>
                         <td>Framework Development 1</td>
-                        <td>5</td>
+                        <td style="color: orange;">5</td>
                         <td>Case study</td>
                         <td>N/A</td>
                     </tr>
                     <tr>
                         <td>Professional Working Environment</td>
-                        <td>2,5</td>
+                        <td style="color: orange;">2,5</td>
                         <td>Assessment</td>
                         <td>N/A</td>
                     </tr>
                     <tr>
                         <td rowspan="3">Professional Skills 2</td>
-                        <td rowspan="3">2,5</td>
+                        <td rowspan="3" style="color: orange;">2,5</td>
                         <td>Portfolio</td>
                         <td>N/A</td>
                     </tr>
@@ -122,8 +116,8 @@
                     <!--Fourth quartile-->
                     <tr>
                         <td rowspan="5">4</td>
-                        <td style="border-bottom:1pt solid red;">Framework Project 2</td>
-                        <td>5</td>
+                        <td>Framework Project 2</td>
+                        <td style="border-bottom:1pt solid red; color: orange;">5</td>
                         <td>Portfolio</td>
                         <td>N/A</td>
                     </tr>
@@ -164,8 +158,13 @@
                         <td>Portfolio</td>
                         <td>-</td>
                     </tr>
-                    
                 </table>
+                <div class="instructions">
+                    <p><span style="padding: 5px; background-color: #F1948A; color: white;">Red</span> - Failed</p>
+                    <p><span style="padding: 5px; background-color: #85C1E9; color: white;">Blue</span> - In Progress</p>
+                    <p><span style="padding: 5px; background-color: #7DCEA0; color: white;">Green</span> - Done</p>
+                </div>
+                <p class="NBSA">The NBSA boundary dinamically changes, its current position is represented by the red line on the 'EC' column.</p>
             </div>
         </div>
         <div class="dash-div">
