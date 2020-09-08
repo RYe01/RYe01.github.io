@@ -104,6 +104,14 @@ video {
     margin: auto;
 }
 
+.guide-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4px;
+    width: 1280px;
+    margin: auto;
+}
+
 .box2 {
     text-align: justify;
     width: auto;
@@ -160,7 +168,7 @@ summary {
     width: 600px;
 }
 
-.qa {
+.qa, .dash {
     width: auto;
     text-align: center;
     padding: 0;
@@ -171,7 +179,20 @@ details, .box1 p, .prog, article {
     padding: 10px;
 }
 
-.faq-div {
+.box1 a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.box1-box {
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.faq-div, .dash-div {
     width: 1280px;
     margin: 0 auto;
 }
@@ -221,16 +242,56 @@ article a {
     color: #ff6600;
 }
 
+table {
+    width: 1280px;
+    text-align: center;
+}
+
+.instructions {
+    text-align: center;
+}
+
+.instructions p{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+th {
+    background-color: #595b3c;
+    color: white;
+}
+
+td {
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.NBSA {
+    text-align: center;
+    color: red;
+}
+
 /* RESPONSIVE ELEMENTS (MEDIA QUERY) */
 
 @media only screen and (max-width: 1316px) {
-    .specs, .faq-div, .landing-page-grid {
+    .specs, .faq-div, .landing-page-grid, .dash-div, .guide-grid {
         width: auto;
     }
 
     video {
         width: 100%;
         height: auto;
+    }
+
+    .table {
+        overflow-x: auto;
+    }
+
+    .guide-grid {
+        display: block;
+    }
+
+    .box1-box {
+        width: 100%;
     }
 }
 
