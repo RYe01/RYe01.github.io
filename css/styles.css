@@ -182,12 +182,8 @@ details, .box1 p, .prog, article {
 }
 
 .box1 a {
-    color: white;
-    text-decoration: none;
-}
-
-.box1 a:hover {
     color: #ff6600;
+    text-decoration: none;
 }
 
 .box1-box {
@@ -196,7 +192,6 @@ details, .box1 p, .prog, article {
     margin-bottom: 20px;
     width: 400px;
     text-align: center;
-    background-color: #7a7157;
 }
 
 .faq-div, .dash-div {
