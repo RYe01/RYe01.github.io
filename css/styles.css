@@ -42,93 +42,7 @@ nav li a:hover {
 }
 
 
-/* HEAD AREA */
-
-.profile-title {
-    background-color: #595b3c;
-    border-radius: 7px 7px 0px 0px;
-    color: white;
-}
-
-.profile-title h2 {
-    padding: 5px;
-}
-
-video {
-    margin-left: auto;
-    margin-right: auto;
-    display: block
-}
-
-#profile {
-    border-radius: 50%;
-    border: 5px solid white;
-    width: 250px;
-    align-self: center;
-}
-
-#bio, #myname, .faq {
-    text-align: center;
-    color: white;
-}
-
-#bio {
-    font-size: 40px;
-}
-
-.center /* moving my profile pic to center */{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-.profile-area /* the background of every head area */{
-    background-image: url("/img/bg.jpg");
-    padding: 10px;
-}
-
-.specs {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    padding: 4px;
-    width: 1280px;
-    margin: auto;
-}
-
-.landing-page-grid {
-    display: grid;
-    grid-template-columns: 4fr 1.5fr;
-    padding: 4px;
-    width: 1280px;
-    margin: auto;
-}
-
-.guide-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 4px;
-    width: 1280px;
-    margin: auto;
-}
-
-.box2 {
-    text-align: justify;
-    width: auto;
-    margin: 0px 0px 0px 100px;
-    padding: 0;
-}
-
-.box2 a, details a {
-    text-decoration: none;
-    color: #ff6600;
-}
-
-::-webkit-details-marker {
-    float: right;
-    margin-top: 8px;
-    color: #595b3c;
-}
+/* FOOTER */
 
 footer {
     display: table;
@@ -161,55 +75,65 @@ footer div {
     text-align: right;
 }
 
-summary {
-    cursor: pointer;
-    outline: none;
+
+/* HEAD AREA */
+
+.profile-title /* EVERY HEADER BACKGROUND */{
+    background-color: #595b3c;
+    border-radius: 7px 7px 0px 0px;
+    color: white;
 }
 
-.gif {
-    width: 600px;
+.profile-title h2 /* EVERY HEADER TITLE */ {
+    padding: 5px;
 }
 
-.qa, .dash {
-    width: auto;
+video /* only on front page, alignment of the video */{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+#profile /* profile picture */{
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 250px;
+    align-self: center;
+}
+
+#bio, #myname, .faq /* center alignment of all the main titles and BIO & my name on profile page */ {
     text-align: center;
-    padding: 0;
+    color: white;
 }
 
-details, .box1 p, .prog, article {
-    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+#bio /* BIO size on profile page */{
+    font-size: 40px;
+}
+
+.center /* moving my profile pic to center */{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.profile-area /* the background of every head area */{
+    background-image: url("/img/bg.jpg");
     padding: 10px;
 }
 
-.box1 a {
-    color: #ff6600;
-    text-decoration: none;
-}
 
-.box1-box {
-    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
-    margin: 0 auto;
-    margin-bottom: 20px;
-    width: 400px;
-    text-align: center;
-}
+/* INDEX */
 
-.faq-div, .dash-div {
+.landing-page-grid /* Landing page grid 1.5:4 ratio */{
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+    padding: 4px;
     width: 1280px;
-    margin: 0 auto;
+    margin: auto;
 }
 
-.sidebar-pic {
-    width: 100%;
-    height: auto;
-}
-
-.sidebar p {
-    margin-top: 5px;
-    font-size: 14px;
-}
-
-.landing-page-box2 {
+.landing-page-box2 /* lading page article box */{
     width: auto;
     margin: 0 40px 0 0;
     padding: 0;
@@ -228,7 +152,7 @@ article p {
     text-align: justify;
 }
 
-article p:first-child:first-letter {
+article p:first-child:first-letter /* initial (first letter) of article */{
     color: #595b3c;
     float: left;
     font-family: Georgia;
@@ -244,18 +168,81 @@ article a {
     color: #ff6600;
 }
 
+.sidebar-pic /* sidebar of article, the box behind it is .box1 */{
+    width: 100%;
+    height: auto;
+}
+
+.sidebar p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+/* Profile page */
+
+.specs /* 1:4 grid that contains the profile data */{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    padding: 4px;
+    width: 1280px;
+    margin: auto;
+}
+
+details, .box1 p, .prog, article {
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+    padding: 10px;
+}
+
+.box1 a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+summary {
+    cursor: pointer;
+    outline: none;
+}
+
+::-webkit-details-marker /* triangle clickable buttons on the right side of the openable boxes, HOBBIES and FAQ */{
+    float: right;
+    margin-top: 8px;
+    color: #595b3c;
+}
+
+.box2 /* HOBBIES box */{
+    text-align: justify;
+    width: auto;
+    margin: 0px 0px 0px 100px;
+    padding: 0;
+}
+
+.box2 a, details a {
+    text-decoration: none;
+    color: #ff6600;
+}
+
+.gif /* all the profil page sizes */{
+    width: 600px;
+}
+
+
+/* Dashboard */
+
+.faq-div/* FAQ page */, .dash-div {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.qa, .dash {
+    width: auto;
+    text-align: center;
+    padding: 0;
+}
+
 table {
     width: 1280px;
     text-align: center;
-}
-
-.instructions {
-    text-align: center;
-}
-
-.instructions p{
-    display: inline-block;
-    padding-right: 20px;
 }
 
 th {
@@ -267,10 +254,36 @@ td {
     box-shadow: 1px 2px 4px rgba(0,0,0,.3);
 }
 
+.instructions {
+    text-align: center;
+}
+
+.instructions p{
+    display: inline-block;
+    padding-right: 20px;
+}
+
 .NBSA {
     text-align: center;
     color: red;
 }
+
+.guide-grid /* study guide grid 2*3 */{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4px;
+    width: 1280px;
+    margin: auto;
+}
+
+.box1-box /* boxes of study guide */{
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 400px;
+    text-align: center;
+}
+
 
 /* RESPONSIVE ELEMENTS (MEDIA QUERY) */
 
