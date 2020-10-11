@@ -148,8 +148,12 @@ video /* only on front page, alignment of the video */{
     margin-bottom: 0px;
 }
 
-article p {
+article p, .article2 p {
     text-align: justify;
+}
+
+.article2 p:first-child:first-letter {
+    all: initial;
 }
 
 article p:first-child:first-letter /* initial (first letter) of article */{
@@ -163,7 +167,7 @@ article p:first-child:first-letter /* initial (first letter) of article */{
     padding-left: 3px;
 }
 
-article a {
+article a, .article2 a {
     text-decoration: none;
     color: #ff6600;
 }
@@ -226,6 +230,12 @@ summary {
     width: 600px;
 }
 
+.pic {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Dashboard */
 
