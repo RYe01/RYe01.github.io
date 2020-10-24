@@ -294,6 +294,99 @@ td {
 }
 
 
+/* PROFESSION PAGE */
+
+.icon {
+    width: 135px;
+}
+
+.companies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1280px;
+    margin: auto;
+}
+
+.companies ul li {
+    padding: 5px 0px;
+}
+
+.company-left, .company-right {
+    width: 615px;
+    margin: 0 auto;
+}
+
+.company {
+    display: grid;
+    grid-template-rows: auto;
+    margin-top: 75px;
+    padding: 24px;
+    border-radius: 25px;
+}
+
+.company-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.company-name, .culture, .it-roles {
+    margin-bottom: 50px;
+}
+
+.company-name, .culture, .it-roles, .technologies {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+
+.macaw {
+    background-color: rgba(255, 153, 0, 0.8);
+}
+
+.your-surprise {
+    background-color: rgba(255, 53, 1, 0.6);
+}
+
+.prezi {
+    background-color: rgba(234, 225, 228, 0.6);
+}
+
+.veracode {
+    background-color: rgba(130, 219, 53, 0.8);
+}
+
+.blizzard {
+    background-color: rgba(25, 170, 209, 0.6);
+}
+
+.macaw, .veracode {
+    height: 1750px;
+}
+
+.your-surprise, .blizzard {
+    height: 1981px;
+}
+
+.prezi {
+    height: 1755px;
+}
+
+.preferences {
+    background-color: rgba(246, 244, 245, 0.6);
+}
+
+.pref-img {
+    margin: 0 auto;
+    width: 35%;
+}
+
+.top3 {
+    display: inline;
+}
+
+.top3 img {
+    width: 30%;
+}
+
 /* RESPONSIVE ELEMENTS (MEDIA QUERY) */
 
 @media only screen and (max-width: 1316px) {
