@@ -387,6 +387,13 @@ td {
     width: 30%;
 }
 
+.stanine {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* RESPONSIVE ELEMENTS (MEDIA QUERY) */
 
 @media only screen and (max-width: 1316px) {
@@ -407,9 +414,10 @@ td {
         display: block;
     }
 
-    .box1-box {
+    .box1-box, .stanine {
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width: 906px) {
