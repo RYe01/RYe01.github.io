@@ -399,6 +399,10 @@ td {
     margin-right: auto;
 }
 
+.company:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
 /* RESPONSIVE ELEMENTS (MEDIA QUERY) */
 
 @media only screen and (max-width: 1316px) {
