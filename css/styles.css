@@ -148,8 +148,13 @@ video /* only on front page, alignment of the video */{
     margin-bottom: 0px;
 }
 
-article p, .article2 p {
+article p {
     text-align: justify;
+}
+
+.article2 p {
+    text-align: left;
+    overflow-wrap: break-word;
 }
 
 .article2 p:first-child:first-letter {
@@ -433,6 +438,10 @@ td {
     .gif {
         width: 300px
     }
+}
+
+@media only screen and (max-width: 642px) {
+    
 }
 
 @media only screen and (max-width: 530px) {
